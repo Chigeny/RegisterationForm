@@ -8,16 +8,18 @@
 <body>
     <h1>REGISTERATION FORM</h1>
     <form>
-        <label>First Name</label>
-        <input type="text" id="First Name" placeholder="Enter your first name" name="First Name" required><br><br>
-        <label>Username</label>
-        <input type="text" id="Username" minlength="10" maxlength="15" name="Username" required>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name" name="firstname" required>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="Enter your surname" name="lastname"><br><br>
+        <label for="usename">Username</label>
+        <input type="text" id="username" minlength="10" maxlength="15" name="username" required>
         <br><br>
-        <label>Date of Birth</label>
-        <input type="date" name="Date of Birth" required min="2002/12/31">
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" id="dateofbirth"  min="2002-12-31" name="dateofbirth" required>
         <br><br>
-        <label>Email</label>
-        <input type="email" id="Email" placeholder="Enter your best email" name="Email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your best email" name="email" required>
         <br><br>
         <label for="gender">Gender:</label>
         <select id="gender" name="gender" required>
@@ -25,26 +27,26 @@
         <option value="male">Male</option>
         </select>
         <br><br>
-        <label>Upload Your Payment Receipt</label>
-        <input type="file" multiple name="Upload Your Payment Receipt" required>
+        <label for="uploadyourpaymentreceipt">Upload Your Payment Receipt</label>
+        <input type="file" multiple name="uploadyourpaymentreceipt" required>
         <br><br>
         <label for="Country"> Select Country:</label>
-        <select id="Country" name="Country"   required>
-        <option value="Ghana"> Ghana</option>
-        <option value="Togo">Togo</option>
-        <option value="Nigeria">Nigeria</option>
-        <option value="Egypt">Egypt</option>
-        <option value="South Africa">South Africa</option>
-        <option value="Kenya">Kenya</option>
+        <select id="country" name="country"   required>
+        <option value="ghana"> Ghana</option>
+        <option value="togo">Togo</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="egypt">Egypt</option>
+        <option value="southafrica">South Africa</option>
+        <option value="kenya">Kenya</option>
         </select>
         <br><br>
         <label for="password">Password</label>
         <input type="password" id="password" name="password">
         <br><br>
-        <label for="Agree to our terms and conditions">Click Here To Agree to Our Terms And Conditions</label>
-        <input type="checkbox" id="Agree" name="Agree" value="Agree to our Terms And Conditions">
+        <label for="termsandconditions">Click Here To Agree to Our Terms And Conditions</label>
+        <input type="checkbox" id="termsandconditions" name="termsandconditions" value="Agree to our Terms And Conditions">
        <br><br>
-        <button type="Submit">Submit Form</button>
+        <button type="submit">Submit Form</button>
         
 
     </form>
