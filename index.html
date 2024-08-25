@@ -4,52 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTERATION FORM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
     <h1>REGISTERATION FORM</h1>
-    <form>
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" placeholder="Enter your first name" name="firstname" required>
+  <div class="border"><form >
+      <div><label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter your first name" name="firstname" required><br><br>
         <label for="lastname">Last Name</label>
         <input type="text" id="lastname" placeholder="Enter your surname" name="lastname"><br><br>
-        <label for="usename">Username</label>
+     </div>
+     <div><label for="username">Username</label>
         <input type="text" id="username" minlength="10" maxlength="15" name="username" required>
         <br><br>
-        <label for="dateofbirth">Date of Birth</label>
+     </div>
+     <div><label for="dateofbirth">Date of Birth</label>
         <input type="date" id="dateofbirth"  min="2002-12-31" name="dateofbirth" required>
         <br><br>
-        <label for="email">Email</label>
+     </div>
+    <div class="tab"><label for="email">Email</label>
         <input type="email" id="email" placeholder="Enter your best email" name="email" required>
         <br><br>
-        <label for="gender">Gender:</label>
+    </div>
+      <div><label for="gender">Gender:</label>
         <select id="gender" name="gender" required>
         <option value="female">Female</option>
         <option value="male">Male</option>
         </select>
         <br><br>
-        <label for="uploadyourpaymentreceipt">Upload Your Payment Receipt</label>
+      </div>
+     <div><label for="uploadyourpaymentreceipt">Upload Your Payment Receipt</label>
         <input type="file" multiple name="uploadyourpaymentreceipt" required>
         <br><br>
-        <label for="Country"> Select Country:</label>
+     </div>
+      <div><label for="Country"> Select Country:</label>
         <select id="country" name="country"   required>
         <option value="ghana"> Ghana</option>
-        <option value="togo">Togo</option>
+        <option value="togo">Togo</option>  
         <option value="nigeria">Nigeria</option>
         <option value="egypt">Egypt</option>
         <option value="southafrica">South Africa</option>
         <option value="kenya">Kenya</option>
         </select>
         <br><br>
-        <label for="password">Password</label>
+      </div>
+    
+     <div><label for="password">Password</label>
         <input type="password" id="password" name="password">
         <br><br>
-        <label for="termsandconditions">Click Here To Agree to Our Terms And Conditions</label>
+     </div>
+    
+      <div><label for="termsandconditions">Click Here To Agree to Our Terms And Conditions</label>
         <input type="checkbox" id="termsandconditions" name="termsandconditions" value="Agree to our Terms And Conditions">
        <br><br>
-        <button type="submit">Submit Form</button>
+      </div>
+
+   <div><button type="submit">Submit Form</button>
+   </div>
         
+        
+  
 
     </form>
+
     
 </body>
 </html>
