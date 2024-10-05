@@ -1,17 +1,18 @@
 
 
 body{
-    background: linear-gradient(to left, blue, green);
+    background: linear-gradient(to left, rgba(96, 96, 235, 0.459), rgba(235, 205, 166, 0.61));
     box-sizing: border-box;
     margin:100px 200px 100px;
     font-weight: bold;
+    color: rgba(10, 10, 10, 0.726);
     
     
     
     
 }
 .border{
-    background-color: aqua;
+    background-color:white;
     padding: 80px 50px;
     border: 1px;
     border-radius: 10px;
@@ -30,7 +31,7 @@ h1{
     width: 600px;
     height: 50px;
     padding: 20px 30px 20px 150px;
-    background-color: blueviolet;
+    background-color: rgba(62, 81, 184, 0.637);
     justify-content: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,17 +43,18 @@ button{
     font-size: 16px;
     font-weight: bold;
     border: 1px solid blue;
-    border-radius: 2px;
+    border-radius: 9px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
 }
 
 .tab input{
-    background-color: yellow;
+    background-color: rgba(58, 131, 153, 0.473);
 }
 
 body input{
     
-    border: 2px solid blue;
+    border: 2px solid rgba(27, 27, 29, 0.733);
     border-radius: 5px;
     width: 100;
 }
@@ -61,9 +63,12 @@ body input{
 button:hover{
     box-shadow: 2px 2px 5px blue;
     cursor: pointer;
+    color: white;
+    border: 2px;
+    background-color: black;
 }
 h1:hover{
-    background-color: burlywood;
+    background-color: rgba(222, 184, 135, 0.534);
     color: black;
     cursor: pointer;
 }
